@@ -16,7 +16,7 @@
     <div class="main">
 
     <div class="title">
-        <h1>The Tree Encyclopedia</h1>
+        <h1>The Tree Encyclopedia IFE</h1>
     </div>
     <div class="container">
 
@@ -24,7 +24,7 @@
             <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
-
+            <p><button id="beech">Mahogany</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -48,6 +48,7 @@
         $("#oak").click(function(){
             $("#i_content").attr("src","oak_content.html");
             $("#i_summary").attr("src","oak_summary.html");
+            $("#i_summary").attr("src","mahogany_summary.html");
         })
         $("#beech").click(function(){
 
